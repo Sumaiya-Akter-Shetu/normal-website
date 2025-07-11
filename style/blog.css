@@ -44,3 +44,19 @@
     font-size: 65px;
     font-weight: bold;
 }
+,section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+}
+.content{
+    flex: 1;
+}
+.image{
+    width: 100%;
+    max-width: 400px;
+    gap: 20px;
+    border-radius: 20px;
+}
