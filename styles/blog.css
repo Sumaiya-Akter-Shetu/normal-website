@@ -110,8 +110,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 40px;
-  flex-wrap: wrap;
+  padding: 4rem;
+max-width: 1140px;
+margin: 0 auto;
+box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+
+  
+
 }
 .action-text {
   flex: 1;
@@ -121,8 +126,10 @@ body {
   margin-top: 0;
 }
 .action-image img {
-  max-width: 100%;
-  border-radius: 10px;
+  width: 400px;
+  border-radius: 1rem;
+  margin-left: 2rem;
+
 }
 
 /* Productive Users Section */
