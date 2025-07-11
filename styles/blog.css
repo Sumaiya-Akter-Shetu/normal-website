@@ -29,6 +29,29 @@
     font-size: bold;
     font-size: 1.5rem;
 }
+.section{
+  display:flex ;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+
+.image img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+ 
+}
+.image img{
+  float: right;
+}
+.middle{
+ display: block;
+ margin: 0 sauto ;
+}
 .hero{
     display: flex;
     align-items: center;
@@ -177,15 +200,15 @@ body {
 footer {
   text-align: center;
   padding: 40px 20px;
-  background: hsl(0, 7%, 92%);
-  color: black;
+  background: #333;
+  color: #fff;
 }
+
 .footer-links {
-    background-color: #fff;
   margin-top: 10px;
 }
 .footer-links a {
-  color: #522f2f;
+  color: #fff;
   margin: 0 10px;
   text-decoration: none;
 }
@@ -195,7 +218,7 @@ footer {
   padding: 10px 20px;
   border: none;
   background: #4f46e5;
-  color: white;
+  color: #fff;
   cursor: pointer;
   border-radius: 4px;
   transition: transform 0.2s, background 0.2s;
