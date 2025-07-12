@@ -31,23 +31,21 @@
 }
 .section{
   display:flex ;
-  flex-direction: column;
-  text-align: left;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px;
-  gap: 20px;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+}
+
+.section{
+  flex: 2;
+  padding: 20px;
+   
 }
 
 .image img{
   width: 100%;
   max-width: 400px;
-  border-radius: 20px;
- 
-}
-.image img{
-  float: right;
-}
+  border-radius: 20px;}
 .middle{
  display: block;
  margin: 0 sauto ;
@@ -124,11 +122,18 @@ box-shadow: 0 15px 30pxrgba(0,0,0,0.08);
 .action-text h2 {
   margin-top: 0;
 }
+.action-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .action-image img {
-  width: 400px;
-  border-radius: 1rem;
-  margin-left: 2rem;
-  float: right;
+  width: 70%;
+  height: auto;
+display: block;
+border-radius: 1rem;
+
+
 
 }
 /* Productive Users Section */
