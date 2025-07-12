@@ -113,11 +113,10 @@ body {
   padding: 4rem;
 max-width: 1140px;
 margin: 0 auto;
-box-shadow: 0 15px 30px rgba(0,0,0,0.08);
-
-  
+box-shadow: 0 15px 30pxrgba(0,0,0,0.08);
 
 }
+
 .action-text {
   flex: 1;
   min-width: 250px;
@@ -129,9 +128,9 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.08);
   width: 400px;
   border-radius: 1rem;
   margin-left: 2rem;
+  float: right;
 
 }
-
 /* Productive Users Section */
 .users {
   background: #f0f0ff;
